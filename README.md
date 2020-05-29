@@ -3,16 +3,9 @@
 ## 初始化项目
 
 ```javascript
-vue create virus-map //不能包含大写
-
-//git 将项目与git中初始化的内容连接起来
-git init
-git add.
-git commit -m "first commit"
-git remote add origin https://github.com/PigMerit/virusMap.git
-git push -u origin master
+npm run serve 开发
+npm run build 打包
 ```
-
 ## cdn方式引echart
 
 ```html
