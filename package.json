@@ -8,11 +8,13 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "px2rem-loader": "^0.1.9",
     "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",
     "@vue/cli-service": "~4.3.0",
+    "postcss-px-to-viewport": "^1.1.1",
     "vue-template-compiler": "^2.6.11"
   }
 }
