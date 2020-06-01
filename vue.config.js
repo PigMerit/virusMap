@@ -1,11 +1,8 @@
 module.exports = {
+	publicPath:'./',
 	chainWebpack: config => {
 			// 用cdn方式引入
 			config.externals({
-				'vue': 'Vue',
-				// 'vuex': 'Vuex',
-				'vue-router': 'VueRouter',
-				'axios': 'axios',
 				"echarts": "echarts",
 			})
 	},
